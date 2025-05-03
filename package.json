@@ -1,0 +1,24 @@
+{
+  "name": "programming-exercise-2-(chat-application)",
+  "version": "1.0.0",
+  "main": "chat_room.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertBisset/Programming-exercise-2--Chat-application-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertBisset/Programming-exercise-2--Chat-application-/issues"
+  },
+  "homepage": "https://github.com/RobertBisset/Programming-exercise-2--Chat-application-#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
