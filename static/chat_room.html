@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <title>Chat Room</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-
+<body>
+    <div class="banner">
+        <h1>Roberts Chat Room</h1>
+        <a href="about_me.html" class="nav">About me</a>
+        <a href="home.html" class="nav">Home</a>
+</div>
     <u><h1>
-        Robert's Chat Room
+        Messages:
     </h1></u>
     <div id="chatroom"></div>
-    <form id="form">
+    <form id="form" class="form">
         <input class="input" type="text" placeholder="Name" id="name">
         <input class="input" type="text" placeholder="Message" id="message">
         <button class="button">Send Message</button>
     </form>
+    <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
     <script src="chat_room.js"></script>
+</body>
 </html>

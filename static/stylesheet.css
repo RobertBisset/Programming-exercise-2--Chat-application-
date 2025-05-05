@@ -24,3 +24,20 @@ p {
 u {
     color: forestgreen;
 }
+
+.form {
+    position: fixed;
+    bottom: 0px;
+    justify-content: center;
+    position: static;
+}
+
+.nav {
+    padding: 10px 20px;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    width: 100px;
+    display: inline-block;
+}

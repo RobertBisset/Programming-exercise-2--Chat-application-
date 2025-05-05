@@ -15,7 +15,8 @@ form.addEventListener("submit", function(e) {
 
 Socket.on("message", (data)=>{
     const message_area=document.createElement("p");
-    message_area.textContent=`${name.value}:${message.value}`;
+    message_area.textContent=`${data.name}:${data.message}`;
     chatroom.appendChild(message_area)
     message.value=""
+    window.scrollTo(0, document.body.scrollHeight);
 })
