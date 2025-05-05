@@ -13,12 +13,13 @@ body {
 h1 {
     color:forestgreen;
     margin-top: 12px;
-    margin-bottom: 12;
+    margin-bottom: 12px;
 }
 
 p {
     color: forestgreen;
-    font-size: 12;
+    font-size: 15px;
+    margin-top: 0px;
 }
 
 u {
@@ -40,4 +41,51 @@ u {
     margin: 10px;
     width: 100px;
     display: inline-block;
+}
+
+.heading {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.right_block {
+    position: relative;
+    width: fit-content;
+    right: 0px;
+    margin-left: auto;
+}
+
+.right_heading {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.right_paragraph {
+    color: forestgreen;
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.left_block {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.left_text {
+    max-width: 300px;
+}
+
+.robert_pic {
+    width: 250px;
+    height: auto;
+    margin-top: 25px;
 }
