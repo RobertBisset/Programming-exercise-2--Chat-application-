@@ -89,3 +89,15 @@ u {
     height: auto;
     margin-top: 25px;
 }
+
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 40px;
+}
+
+#user_list_box {
+    margin: 0px;
+    padding: 0px;
+}

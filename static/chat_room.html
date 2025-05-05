@@ -10,12 +10,20 @@
         <a href="about_me.html" class="nav">About me</a>
         <a href="home.html" class="nav">Home</a>
 </div>
-    <u><h1>
-        Messages:
-    </h1></u>
+
+<form id="form_name" class="form">
+    <input class="input" type="text" placeholder="Name" id="name">
+    <button class="button">Choose Name</button>
+</form>
+
+<div class="chatroom_header">
+    <u><h1>Online Users:</h1></u>
+    <ul id="user_list_box"></ul>
+    <u><h1>Messages:</h1></u>
+    </div>
+
     <div id="chatroom"></div>
     <form id="form" class="form">
-        <input class="input" type="text" placeholder="Name" id="name">
         <input class="input" type="text" placeholder="Message" id="message">
         <button class="button">Send Message</button>
     </form>
